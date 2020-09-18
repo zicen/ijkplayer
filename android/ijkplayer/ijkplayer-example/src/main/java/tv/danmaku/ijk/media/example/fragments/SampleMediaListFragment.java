@@ -81,6 +81,8 @@ public class SampleMediaListFragment extends Fragment {
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/gear4/prog_index.m3u8", "bipbop advanced 1289x720 @ 1 Mbps");
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/gear5/prog_index.m3u8", "bipbop advanced 1920x1080 @ 2 Mbps");
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/gear0/prog_index.m3u8", "bipbop advanced 22.050Hz stereo @ 40 kbps");
+        mAdapter.addItem("https://pull-stream-cn.poizon.com/dewuApp/release-220651197-1600348482.flv?auth_key=1600434882-0-0-504a79c07c965b7e590562264106ff73", "playFlvUrl");
+        mAdapter.addItem("rtmp://pull-stream-cn.poizon.com/dewuApp/release-220651197-1600348482?auth_key=1600434882-0-0-3abb41eb93111707c91aa462eff8da46", "play rtmp Url");
     }
 
     final class SampleMediaItem {
