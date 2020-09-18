@@ -16,6 +16,10 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode rootProject.ext.versionCode
         versionName rootProject.ext.versionName
+
+        ndk {
+            abiFilters 'armeabi-v7a'
+        }
     }
     buildTypes {
         release {
@@ -48,11 +52,11 @@ dependencies {
 //    all32Implementation project(':ijkplayer-armv7a')
 //    all32Implementation project(':ijkplayer-x86')
 
-    implementation project(':ijkplayer-armv5')
+//    implementation project(':ijkplayer-armv5')
     implementation project(':ijkplayer-armv7a')
-    implementation project(':ijkplayer-arm64')
-    implementation project(':ijkplayer-x86')
-    implementation project(':ijkplayer-x86_64')
+//    implementation project(':ijkplayer-arm64')
+//    implementation project(':ijkplayer-x86')
+//    implementation project(':ijkplayer-x86_64')
 
     // compile 'tv.danmaku.ijk.media:ijkplayer-java:0.8.8'
     // compile 'tv.danmaku.ijk.media:ijkplayer-exo:0.8.8'
